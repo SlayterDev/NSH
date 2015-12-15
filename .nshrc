@@ -1,0 +1,38 @@
+~-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==
+~  Project 5
+~	File:			.nshrc
+~   Created by:		Fritts and Slayter
+~   Last edit on:	11/21/2013 (Fritts)
+~   Description:	The program takes this file and inputs the data line
+~    				by line setting data and running commands as needed.
+~==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-==-
+
+~Copy this file to your home dir if you wish to test this script
+
+~present the user with a message
+echo
+echo Welcome to NSH Project 5 by Fritts and Slayer
+echo For a list of commands type "help"
+echo
+
+~set some values in alias
+alias a alias
+alias s set
+alias e exit
+
+~set some values in set (multiple lines)
+s dog ruff? s cow tip? s eel creepy
+
+~set cat using multiple lines
+s cat $
+{meow meow}
+
+~print out set values for user
+echo Preset "set" stored values
+s
+echo
+
+echo Preset "alias" stored values
+a
+echo
+
